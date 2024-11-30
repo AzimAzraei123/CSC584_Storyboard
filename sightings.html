@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/sightings.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Sightings</title>
+</head>
+<body>
+    <a href="home.html" class="button">Home</a>
+    <h2>Manage Sightings</h2>
+    <form>
+        <label for="species">Species:</label>
+        <input type="text" id="species" name="species"><br><br>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location"><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <button type="submit">Add Sighting</button>
+    </form>
+
+    <h3>Sighting Records</h3>
+    <table border="1">
+        <tr>
+            <th>Sighting ID</th>
+            <th>Species</th>
+            <th>Location</th>
+            <th>Date</th>
+            <th>Actions</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Elephant</td>
+            <td>Kenya</td>
+            <td>2023-10-10</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Girraffe</td>
+            <td>Tanzania</td>
+            <td>2023-12-9</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Monkey</td>
+            <td>Zimbabwe</td>
+            <td>2023-12-20</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Hippopotamus</td>
+            <td>Thailand</td>
+            <td>2023-12-30</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Zebra</td>
+            <td>Greenland</td>
+            <td>2024-1-18</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+        </tr>
+    </table>
+</body>
+</html>

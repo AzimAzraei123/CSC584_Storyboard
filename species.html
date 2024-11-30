@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/species.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Species</title>
+</head>
+<body>
+    <a href="home.html" class="button">Home</a>
+    <h2>Manage Species</h2>
+    <form>
+        <label for="speciesName">Species Name:</label>
+        <input type="text" id="speciesName" name="speciesName"><br><br>
+
+        <label for="status">Endangered Status:</label>
+        <input type="text" id="status" name="status"><br><br>
+
+        <button type="submit">Add Species</button>
+    </form>
+
+    <h3>Species List</h3>
+    <table border="1">
+        <tr>
+            <th>Species ID</th>
+            <th>Name</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+        <!-- Sample Row -->
+        <tr>
+            <td>1</td>
+            <td>Elephant</td>
+            <td>Endangered</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Malayan Tiger</td>
+            <td>Danger</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Zebra</td>
+            <td>Endanger</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Dodo Bird</td>
+            <td>Danger</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Orang Utans</td>
+            <td>Danger</td>
+            <td><button>Edit</button> <button>Delete</button></td>
+        </tr>
+    </table>
+</body>
+</html>
